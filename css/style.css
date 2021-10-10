@@ -1,0 +1,180 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-image: linear-gradient(
+      rgba(128, 128, 128, 0.644),
+      rgba(128, 128, 128, 0.65)
+    ),
+    url("./images/BluTV.jpg");
+}
+
+#container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+#title {
+  position: relative;
+}
+
+.head {
+  position: absolute;
+  left: 50px;
+  padding: 12px;
+  top: 5px;
+  /* font-family: "Work Sans", sans-serif; */
+}
+
+h1 {
+  font-family: "Work Sans", sans-serif, Helvetica;
+}
+
+.span {
+  font-family: "Work Sans", sans-serif;
+  font-weight: lighter;
+}
+
+.info {
+  position: absolute;
+  right: 0;
+  right: 50px;
+  padding: 12px;
+  top: 5px;
+  font-family: "Work Sans", sans-serif;
+}
+
+.info p {
+  text-align: center;
+}
+
+#icon {
+  padding-right: 10px;
+  position: relative;
+  /* vertical-align: -12px; */
+  top: 8px;
+  font-size: 20px;
+}
+
+#survey-form-container {
+  max-width: 1000px;
+  margin: auto;
+  padding: 10px 30px;
+  margin-top: 30px;
+}
+
+#survey-form {
+  max-width: 900px;
+  margin: auto;
+  margin-top: 80px;
+}
+
+.survey-title {
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+}
+
+.main-form {
+  max-width: 400px;
+  margin: auto;
+  margin-top: 40px;
+}
+
+.input-box {
+  margin-top: 20px;
+}
+
+.a {
+  float: right;
+  font-family: "Work Sans", sans-serif;
+}
+
+#email,
+#passw {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+}
+
+.check {
+  margin-top: 40px;
+  font-family: "Work Sans", sans-serif;
+}
+
+button {
+  width: 100%;
+  padding: 15px;
+  border-radius: 5px;
+  border-style: none;
+  background-color: #4f8dda;
+  color: aliceblue;
+  font-family: "Work Sans", sans-serif;
+}
+
+#other {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: black;
+}
+
+#facebook {
+  margin: auto;
+  margin-top: 15px;
+  width: 70%;
+}
+
+#icon1 {
+  padding-right: 10px;
+  color: #4f8dda;
+  font-size: 15px;
+}
+
+#icon2 {
+  padding-right: 26px;
+  color: #4f8dda;
+  font-size: 15px;
+}
+
+#icon3 {
+  padding-right: 28px;
+  font-size: 15px;
+  color: black;
+}
+
+#google {
+  margin: auto;
+  margin-top: 15px;
+  width: 70%;
+}
+
+#apple {
+  margin: auto;
+  margin-top: 15px;
+  width: 70%;
+}
+
+.button {
+  background-color: aliceblue;
+  color: #757575;
+}
+
+#last {
+  margin-top: 30px;
+  text-align: center;
+  font-family: "Work Sans", sans-serif;
+  color: aliceblue;
+}
+
+a {
+  color: black;
+}
+
+a:link {
+  text-decoration: none;
+}

@@ -5,15 +5,12 @@
 }
 
 body {
-  background-image: linear-gradient(
-      rgba(128, 128, 128, 0.644),
-      rgba(128, 128, 128, 0.65)
-    ),
-    url("./images/BluTV.jpg");
+  background-image: linear-gradient(rgba(34, 49, 63, 0.8), rgba(34, 49, 63, 1)),
+    url("./images/images/BluTV.jpg");
 }
 
 #container {
-  max-width: 1200px;
+  min-width: 1200px;
   margin: auto;
 }
 
@@ -24,8 +21,9 @@ body {
 .head {
   position: absolute;
   left: 50px;
-  padding: 12px;
-  top: 5px;
+  padding: 10px;
+  color: aliceblue;
+  /* top: 3px; */
   /* font-family: "Work Sans", sans-serif; */
 }
 
@@ -40,11 +38,11 @@ h1 {
 
 .info {
   position: absolute;
-  right: 0;
   right: 50px;
-  padding: 12px;
-  top: 5px;
+  padding: 10px;
+  /* top: 5px; */
   font-family: "Work Sans", sans-serif;
+  color: aliceblue;
 }
 
 .info p {
@@ -69,12 +67,13 @@ h1 {
 #survey-form {
   max-width: 900px;
   margin: auto;
-  margin-top: 80px;
+  margin-top: 90px;
 }
 
 .survey-title {
   text-align: center;
   font-family: "Work Sans", sans-serif;
+  color: aliceblue;
 }
 
 .main-form {
@@ -95,6 +94,7 @@ h1 {
 #email,
 #passw {
   width: 100%;
+  margin-top: 10px;
   padding: 15px;
   border-radius: 5px;
   border-style: none;
@@ -103,6 +103,7 @@ h1 {
 .check {
   margin-top: 40px;
   font-family: "Work Sans", sans-serif;
+  color: aliceblue;
 }
 
 button {
@@ -120,7 +121,7 @@ button {
   margin-bottom: 20px;
   text-align: center;
   font-family: "Work Sans", sans-serif;
-  color: black;
+  color: aliceblue;
 }
 
 #facebook {
@@ -172,7 +173,7 @@ button {
 }
 
 a {
-  color: black;
+  color: #4f8dda;
 }
 
 a:link {
